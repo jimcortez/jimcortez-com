@@ -5,6 +5,8 @@ title = "Jim Cortez"
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-103315-5"
+enableRobotsTXT = true
+
 theme = "hugo-sustain"
 
 [permalinks]
