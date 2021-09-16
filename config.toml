@@ -1,0 +1,47 @@
+baseURL = "https://jimcortez.com/"
+languageCode = "en-US"
+title = "Jim Cortez"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = "UA-103315-5"
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "https://www.gravatar.com/avatar/b4cb1ed0994f67d2d7e76771c3aa4b66?s=190&d=identicon"
+  author = "Jim Cortez"
+  description = "A simple homepage"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = ["css/jimcortez.css"]
+  custom_js  = []
+
+[params.social]
+  Github        = "jimcortez"
+  Email         = ""
+  Twitter       = "jimmybondo"
+  LinkedIn      = "jimcortez"
+  Stackoverflow = "u/695527"
+  Medium        = ""
+  Telegram      = ""
+  RSS           = ""
+
+# ## Main Menu
+# [[menu.main]]
+#   name = "blog"
+#   weight = 100
+#   identifier = "blog"
+#   url = "/blog/"
+# [[menu.main]]
+#   name = "projects"
+#   identifier = "projects"
+#   weight = 200
+#   url = "/projects/"
+# [[menu.main]]
+#   name = "resume"
+#   identifier = "resume"
+#   weight = 300
+#   url = "/resume/"

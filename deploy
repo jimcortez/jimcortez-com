@@ -1,0 +1,8 @@
+#!/bin/sh
+USER=jecortez
+HOST=jimcortez.com
+DIR=jimcortez.com/   # the directory where your web site files should go
+
+hugo && rsync -avz --delete -e "ssh -i ~/Personal/jecortez-personal.pem" public/ ${USER}@${HOST}:~/${DIR}
+
+exit 0
