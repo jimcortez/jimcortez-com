@@ -1,1 +1,6 @@
 ErrorDocument 404 /404.html
+Header set X-Content-Type-Options "nosniff"
+Header set Content-Security-Policy "frame-ancestors 'self'"
+Header set X-Frame-Options "SAMEORIGIN"
+Header set X-XSS-Protection "1; mode=block"
+Header set Strict-Transport-Security "max-age=15768000" env=HTTPS

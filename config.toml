@@ -6,6 +6,7 @@ disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-103315-5"
 enableRobotsTXT = true
+disableFastRender = true
 
 theme = "hugo-sustain"
 
@@ -20,6 +21,9 @@ theme = "hugo-sustain"
   # Custom assets can be linked with their paths relative to static/
   custom_css = ["css/jimcortez.css"]
   custom_js  = []
+
+  # Uncomment this for localhost debugging
+  #httpsOnly  = false
 
 [params.social]
   Github        = "jimcortez"
@@ -47,3 +51,42 @@ theme = "hugo-sustain"
 #   identifier = "resume"
 #   weight = 300
 #   url = "/resume/"
+
+[params.csp]
+  childsrc = ["'self'"]
+  fontsrc = ["'self'",
+             "https://maxcdn.bootstrapcdn.com",
+             "https://fonts.gstatic.com",
+             "data:"]
+  formaction = ["'self'"]
+  framesrc = ["'self'"]
+  imgsrc = ["'self'",
+            "https://www.gravatar.com",
+            "https://ssl.gstatic.com",
+            "https://www.gstatic.com",
+            "https://www.google-analytics.com"]
+
+  objectsrc = ["'none'"]
+  connectsrc = ["'self'", "https://www.google-analytics.com"]
+  stylesrc = ["'self'",
+              "https://maxcdn.bootstrapcdn.com",
+              "https://fonts.googleapis.com",
+              "https://cdn.jsdelivr.net",
+              "https://tagmanager.google.com",
+              "https://fonts.googleapis.com"]
+  scriptsrc = ["'self'",
+		       "'unsafe-inline'",
+		       "'unsafe-eval'",
+		       "https://cdn.jsdelivr.net",
+		       "https://oss.maxcdn.com",
+		       "https://www.google-analytics.com",
+		       "https://ssl.google-analytics.com",
+		       "cse.google.com",
+		       "https://www.google.com",
+		       "https://pagead2.googlesyndication.com",
+		       "https://adservice.google.com",
+		       "https://www.googletagservices.com",
+		       "https://tagmanager.google.com",
+		       #"http://tagmanager.google.com"
+		       ]
+
