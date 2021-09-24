@@ -22,8 +22,8 @@ theme = "hugo-sustain"
   custom_css = ["css/jimcortez.css"]
   custom_js  = []
 
-  # Uncomment this for localhost debugging
-  #httpsOnly  = false
+  # flip this for localhost debugging
+  httpsOnly  = true
 
 [params.social]
   Github        = "jimcortez"

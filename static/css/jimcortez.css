@@ -1,7 +1,8 @@
-html, body {
-    border-top: 3px solid #5b6e8c;
+html,
+body {
+  border-top: 3px solid #5b6e8c;
 }
 
 .footer {
-    border-bottom: 5px solid #5b6e8c;
+  border-bottom: 5px solid #5b6e8c;
 }
