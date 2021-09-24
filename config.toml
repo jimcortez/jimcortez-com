@@ -61,6 +61,7 @@ theme = "hugo-sustain"
   formaction = ["'self'"]
   framesrc = ["'self'"]
   imgsrc = ["'self'",
+            "data:",
             "https://www.gravatar.com",
             "https://ssl.gstatic.com",
             "https://www.gstatic.com",
