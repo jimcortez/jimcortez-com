@@ -19,8 +19,8 @@ theme = "hugo-sustain"
   description = "A simple homepage"
 
   # Custom assets can be linked with their paths relative to static/
-  custom_css = ["css/jimcortez.css"]
-  custom_js  = []
+  custom_css = ["css/jimcortez.css", "css/carousel.css"]
+  custom_js  = ["js/carousel.js"]
 
   # flip this for localhost debugging
   httpsOnly  = true
@@ -28,7 +28,7 @@ theme = "hugo-sustain"
 [params.social]
   Github        = "jimcortez"
   Email         = ""
-  Twitter       = "jimmybondo"
+  Twitter       = ""
   LinkedIn      = "jimcortez"
   Stackoverflow = "u/695527"
   Medium        = ""
@@ -41,11 +41,11 @@ theme = "hugo-sustain"
 #   weight = 100
 #   identifier = "blog"
 #   url = "/blog/"
-# [[menu.main]]
-#   name = "projects"
-#   identifier = "projects"
-#   weight = 200
-#   url = "/projects/"
+[[menu.main]]
+  name = "art"
+  identifier = "art"
+  weight = 200
+  url = "/art/"
 # [[menu.main]]
 #   name = "resume"
 #   identifier = "resume"
@@ -70,6 +70,7 @@ theme = "hugo-sustain"
   objectsrc = ["'none'"]
   connectsrc = ["'self'", "https://www.google-analytics.com"]
   stylesrc = ["'self'",
+              "'unsafe-inline'",
               "https://maxcdn.bootstrapcdn.com",
               "https://fonts.googleapis.com",
               "https://cdn.jsdelivr.net",
