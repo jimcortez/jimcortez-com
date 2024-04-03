@@ -41,11 +41,11 @@ theme = "hugo-sustain"
 #   weight = 100
 #   identifier = "blog"
 #   url = "/blog/"
-[[menu.main]]
-  name = "art"
-  identifier = "art"
-  weight = 200
-  url = "/art/"
+# [[menu.main]]
+#   name = "art"
+#   identifier = "art"
+#   weight = 200
+#   url = "/art/"
 # [[menu.main]]
 #   name = "resume"
 #   identifier = "resume"
