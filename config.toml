@@ -4,7 +4,7 @@ title = "Jim Cortez"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = "UA-103315-5"
+googleAnalytics = "G-2JRJ11PB39"
 enableRobotsTXT = true
 disableFastRender = true
 
@@ -59,7 +59,9 @@ theme = "hugo-sustain"
              "https://fonts.gstatic.com",
              "data:"]
   formaction = ["'self'"]
-  framesrc = ["'self'"]
+  framesrc = ["'self'",
+              "youtube.com",
+              "www.youtube.com"]
   imgsrc = ["'self'",
             "data:",
             "https://www.gravatar.com",

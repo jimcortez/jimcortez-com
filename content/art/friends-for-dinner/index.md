@@ -1,7 +1,6 @@
 ---
 title: "Friends for Dinner - Burning Man 2023"
 date: 2023-09-04T12:51:27-07:00
-draft: true
 ---
 
 Friends for Dinner was a placed art piece at Burning Man 2023. Participants experienced a large "fancy" dining room table that invited conversation and inclusion in a familiar place, but in an unfamiliar setting. Using more than 2000 individually-addressable LED's, the piece had hours of unique animations that tied the chandelier, plates, and orbs together.
